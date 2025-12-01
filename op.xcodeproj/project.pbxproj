@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23C026B2DEAD23000993127 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C026A2DEAD23000993127 /* CoreAudio.framework */; };
+		A23C026D2DEAD23800993127 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C026C2DEAD23800993127 /* AudioToolbox.framework */; };
+		A23C026F2DEAD24100993127 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C026E2DEAD24100993127 /* AudioUnit.framework */; };
+		A23C02712DEAD25200993127 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02702DEAD25200993127 /* CoreServices.framework */; };
+		A23C02732DEAD25B00993127 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02722DEAD25B00993127 /* Carbon.framework */; };
+		A23C02742DEAD28600993127 /* libportaudio.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02682DEAD21100993127 /* libportaudio.2.dylib */; };
+		A23C02752DEAD5BE00993127 /* libsndfile.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02582DEAC63700993127 /* libsndfile.1.dylib */; };
+		A23C02782DEAD85A00993127 /* libsndfile.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02582DEAC63700993127 /* libsndfile.1.dylib */; };
+		A23C02792DEAD87400993127 /* libportaudio.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02682DEAD21100993127 /* libportaudio.2.dylib */; };
+		A23C027A2DEAD87F00993127 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02722DEAD25B00993127 /* Carbon.framework */; };
+		A23C027B2DEAD88500993127 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C02702DEAD25200993127 /* CoreServices.framework */; };
+		A23C027C2DEAD88E00993127 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C026E2DEAD24100993127 /* AudioUnit.framework */; };
+		A23C027D2DEAD89700993127 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C026C2DEAD23800993127 /* AudioToolbox.framework */; };
+		A23C027E2DEAD8A000993127 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C026A2DEAD23000993127 /* CoreAudio.framework */; };
+		A247E4E52D94FA0500109144 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28367412D9027EC00A5D658 /* OpenGL.framework */; };
+		A28367422D9027EC00A5D658 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28367412D9027EC00A5D658 /* OpenGL.framework */; };
+		A28367442D9027FC00A5D658 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28367432D9027FC00A5D658 /* IOKit.framework */; };
+		A28367462D90282500A5D658 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28367452D90282500A5D658 /* Cocoa.framework */; };
+		A28367482D90287800A5D658 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A28367472D90287800A5D658 /* libglfw3.a */; };
+		A2B06B852D97D866009F761B /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A28367492D902B5E00A5D658 /* libglfw.3.dylib */; };
+		A2B06B892D97DAF6009F761B /* libglfw.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2B06B872D97D9EC009F761B /* libglfw.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A2D6FB872D9E216B00782AAA /* libglfw.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2D6FB862D9E216B00782AAA /* libglfw.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A2D6FB8A2D9E21A100782AAA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28367412D9027EC00A5D658 /* OpenGL.framework */; };
+		A2D6FB8B2D9E21C700782AAA /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D6FB862D9E216B00782AAA /* libglfw.3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A23C025F2DEAD18E00993127 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A28367322D9026C400A5D658 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A2B06B752D97D3BE009F761B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A2B06B892D97DAF6009F761B /* libglfw.3.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D6FB752D9E209400782AAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A2D6FB872D9E216B00782AAA /* libglfw.3.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A23C02582DEAC63700993127 /* libsndfile.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsndfile.1.dylib; path = ../../../../../../../usr/local/lib/libsndfile.1.dylib; sourceTree = "<group>"; };
+		A23C02612DEAD18E00993127 /* audio_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = audio_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23C02682DEAD21100993127 /* libportaudio.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libportaudio.2.dylib; path = ../../../../../../../opt/homebrew/Cellar/portaudio/19.7.0/lib/libportaudio.2.dylib; sourceTree = "<group>"; };
+		A23C026A2DEAD23000993127 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A23C026C2DEAD23800993127 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A23C026E2DEAD24100993127 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		A23C02702DEAD25200993127 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		A23C02722DEAD25B00993127 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		A247E4DC2D94F8A000109144 /* op2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = op2; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28367342D9026C400A5D658 /* op */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = op; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28367412D9027EC00A5D658 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		A28367432D9027FC00A5D658 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A28367452D90282500A5D658 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A28367472D90287800A5D658 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = "../glfw-3.4.bin.MACOS/lib-arm64/libglfw3.a"; sourceTree = "<group>"; };
+		A28367492D902B5E00A5D658 /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = "../glfw-3.4.bin.MACOS/lib-arm64/libglfw.3.dylib"; sourceTree = "<group>"; };
+		A2B06B872D97D9EC009F761B /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libglfw.3.dylib; sourceTree = "<group>"; };
+		A2D6FB772D9E209400782AAA /* tan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tan; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D6FB862D9E216B00782AAA /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = "../glfw-3.4.bin.MACOS/lib-arm64/libglfw.3.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A23C02622DEAD18E00993127 /* audio_test */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = audio_test;
+			sourceTree = "<group>";
+		};
+		A247E4DD2D94F8A000109144 /* op2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = op2;
+			sourceTree = "<group>";
+		};
+		A28367362D9026C400A5D658 /* 101-triangle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "101-triangle";
+			sourceTree = "<group>";
+		};
+		A2D6FB782D9E209400782AAA /* tan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tan;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23C025E2DEAD18E00993127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C02752DEAD5BE00993127 /* libsndfile.1.dylib in Frameworks */,
+				A23C02742DEAD28600993127 /* libportaudio.2.dylib in Frameworks */,
+				A23C02732DEAD25B00993127 /* Carbon.framework in Frameworks */,
+				A23C02712DEAD25200993127 /* CoreServices.framework in Frameworks */,
+				A23C026F2DEAD24100993127 /* AudioUnit.framework in Frameworks */,
+				A23C026D2DEAD23800993127 /* AudioToolbox.framework in Frameworks */,
+				A23C026B2DEAD23000993127 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A247E4D92D94F8A000109144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B06B852D97D866009F761B /* libglfw.3.dylib in Frameworks */,
+				A247E4E52D94FA0500109144 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28367312D9026C400A5D658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28367482D90287800A5D658 /* libglfw3.a in Frameworks */,
+				A28367462D90282500A5D658 /* Cocoa.framework in Frameworks */,
+				A28367442D9027FC00A5D658 /* IOKit.framework in Frameworks */,
+				A28367422D9027EC00A5D658 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D6FB742D9E209400782AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C027E2DEAD8A000993127 /* CoreAudio.framework in Frameworks */,
+				A23C027D2DEAD89700993127 /* AudioToolbox.framework in Frameworks */,
+				A23C027C2DEAD88E00993127 /* AudioUnit.framework in Frameworks */,
+				A23C027B2DEAD88500993127 /* CoreServices.framework in Frameworks */,
+				A23C027A2DEAD87F00993127 /* Carbon.framework in Frameworks */,
+				A23C02792DEAD87400993127 /* libportaudio.2.dylib in Frameworks */,
+				A23C02782DEAD85A00993127 /* libsndfile.1.dylib in Frameworks */,
+				A2D6FB8B2D9E21C700782AAA /* libglfw.3.dylib in Frameworks */,
+				A2D6FB8A2D9E21A100782AAA /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A283672B2D9026C400A5D658 = {
+			isa = PBXGroup;
+			children = (
+				A2B06B872D97D9EC009F761B /* libglfw.3.dylib */,
+				A2D6FB862D9E216B00782AAA /* libglfw.3.dylib */,
+				A28367362D9026C400A5D658 /* 101-triangle */,
+				A247E4DD2D94F8A000109144 /* op2 */,
+				A2D6FB782D9E209400782AAA /* tan */,
+				A23C02622DEAD18E00993127 /* audio_test */,
+				A28367402D9027EC00A5D658 /* Frameworks */,
+				A28367352D9026C400A5D658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28367352D9026C400A5D658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28367342D9026C400A5D658 /* op */,
+				A247E4DC2D94F8A000109144 /* op2 */,
+				A2D6FB772D9E209400782AAA /* tan */,
+				A23C02612DEAD18E00993127 /* audio_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28367402D9027EC00A5D658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23C02722DEAD25B00993127 /* Carbon.framework */,
+				A23C02702DEAD25200993127 /* CoreServices.framework */,
+				A23C026E2DEAD24100993127 /* AudioUnit.framework */,
+				A23C026C2DEAD23800993127 /* AudioToolbox.framework */,
+				A23C026A2DEAD23000993127 /* CoreAudio.framework */,
+				A23C02682DEAD21100993127 /* libportaudio.2.dylib */,
+				A23C02582DEAC63700993127 /* libsndfile.1.dylib */,
+				A28367492D902B5E00A5D658 /* libglfw.3.dylib */,
+				A28367472D90287800A5D658 /* libglfw3.a */,
+				A28367452D90282500A5D658 /* Cocoa.framework */,
+				A28367432D9027FC00A5D658 /* IOKit.framework */,
+				A28367412D9027EC00A5D658 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23C02602DEAD18E00993127 /* audio_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23C02652DEAD18E00993127 /* Build configuration list for PBXNativeTarget "audio_test" */;
+			buildPhases = (
+				A23C025D2DEAD18E00993127 /* Sources */,
+				A23C025E2DEAD18E00993127 /* Frameworks */,
+				A23C025F2DEAD18E00993127 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A23C02622DEAD18E00993127 /* audio_test */,
+			);
+			name = audio_test;
+			packageProductDependencies = (
+			);
+			productName = audio_test;
+			productReference = A23C02612DEAD18E00993127 /* audio_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		A247E4DB2D94F8A000109144 /* op2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A247E4E02D94F8A000109144 /* Build configuration list for PBXNativeTarget "op2" */;
+			buildPhases = (
+				A247E4D82D94F8A000109144 /* Sources */,
+				A247E4D92D94F8A000109144 /* Frameworks */,
+				A2B06B752D97D3BE009F761B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A247E4DD2D94F8A000109144 /* op2 */,
+			);
+			name = op2;
+			packageProductDependencies = (
+			);
+			productName = op2;
+			productReference = A247E4DC2D94F8A000109144 /* op2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A28367332D9026C400A5D658 /* op */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A283673B2D9026C400A5D658 /* Build configuration list for PBXNativeTarget "op" */;
+			buildPhases = (
+				A28367302D9026C400A5D658 /* Sources */,
+				A28367312D9026C400A5D658 /* Frameworks */,
+				A28367322D9026C400A5D658 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A28367362D9026C400A5D658 /* 101-triangle */,
+			);
+			name = op;
+			packageProductDependencies = (
+			);
+			productName = op;
+			productReference = A28367342D9026C400A5D658 /* op */;
+			productType = "com.apple.product-type.tool";
+		};
+		A2D6FB762D9E209400782AAA /* tan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D6FB7B2D9E209400782AAA /* Build configuration list for PBXNativeTarget "tan" */;
+			buildPhases = (
+				A2D6FB752D9E209400782AAA /* CopyFiles */,
+				A2D6FB742D9E209400782AAA /* Frameworks */,
+				A2D6FB732D9E209400782AAA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2D6FB782D9E209400782AAA /* tan */,
+			);
+			name = tan;
+			packageProductDependencies = (
+			);
+			productName = tan;
+			productReference = A2D6FB772D9E209400782AAA /* tan */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A283672C2D9026C400A5D658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A23C02602DEAD18E00993127 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A247E4DB2D94F8A000109144 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A28367332D9026C400A5D658 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A2D6FB762D9E209400782AAA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = A283672F2D9026C400A5D658 /* Build configuration list for PBXProject "op" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A283672B2D9026C400A5D658;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A28367352D9026C400A5D658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28367332D9026C400A5D658 /* op */,
+				A247E4DB2D94F8A000109144 /* op2 */,
+				A2D6FB762D9E209400782AAA /* tan */,
+				A23C02602DEAD18E00993127 /* audio_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23C025D2DEAD18E00993127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A247E4D82D94F8A000109144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28367302D9026C400A5D658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D6FB732D9E209400782AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A23C02662DEAD18E00993127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/opt/portaudio/include,
+					/usr/local/include,
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/portaudio/19.7.0/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A23C02672DEAD18E00993127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/opt/portaudio/include,
+					/usr/local/include,
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/portaudio/19.7.0/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A247E4E12D94F8A000109144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glad/include",
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/include",
+					"/Users/bobow/Desktop/c++/程设/op/cglm/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/lib-arm64";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A247E4E22D94F8A000109144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glad/include",
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/include",
+					"/Users/bobow/Desktop/c++/程设/op/cglm/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/lib-arm64";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A28367392D9026C400A5D658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A283673A2D9026C400A5D658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A283673C2D9026C400A5D658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glad/include",
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/lib-arm64";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A283673D2D9026C400A5D658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glad/include",
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/lib-arm64";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2D6FB7C2D9E209400782AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glad/include",
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/include",
+					"/Users/bobow/Desktop/c++/程设/op/cglm/include",
+					/opt/homebrew/opt/portaudio/include,
+					/usr/local/include,
+					/opt/homebrew/Cellar/freetype/2.13.3/include/freetype2/,
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/lib-arm64",
+					/opt/homebrew/Cellar/portaudio/19.7.0/lib,
+					/usr/local/lib,
+					/opt/homebrew/Cellar/freetype/2.13.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "";
+				OTHER_LDFLAGS = "-lfreetype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2D6FB7D2D9E209400782AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glad/include",
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/include",
+					"/Users/bobow/Desktop/c++/程设/op/cglm/include",
+					/opt/homebrew/opt/portaudio/include,
+					/usr/local/include,
+					/opt/homebrew/Cellar/freetype/2.13.3/include/freetype2/,
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bobow/Desktop/c++/程设/op/glfw-3.4.bin.MACOS/lib-arm64",
+					/opt/homebrew/Cellar/portaudio/19.7.0/lib,
+					/usr/local/lib,
+					/opt/homebrew/Cellar/freetype/2.13.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "";
+				OTHER_LDFLAGS = "-lfreetype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23C02652DEAD18E00993127 /* Build configuration list for PBXNativeTarget "audio_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23C02662DEAD18E00993127 /* Debug */,
+				A23C02672DEAD18E00993127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A247E4E02D94F8A000109144 /* Build configuration list for PBXNativeTarget "op2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A247E4E12D94F8A000109144 /* Debug */,
+				A247E4E22D94F8A000109144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A283672F2D9026C400A5D658 /* Build configuration list for PBXProject "op" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28367392D9026C400A5D658 /* Debug */,
+				A283673A2D9026C400A5D658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A283673B2D9026C400A5D658 /* Build configuration list for PBXNativeTarget "op" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A283673C2D9026C400A5D658 /* Debug */,
+				A283673D2D9026C400A5D658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D6FB7B2D9E209400782AAA /* Build configuration list for PBXNativeTarget "tan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D6FB7C2D9E209400782AAA /* Debug */,
+				A2D6FB7D2D9E209400782AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A283672C2D9026C400A5D658 /* Project object */;
+}
