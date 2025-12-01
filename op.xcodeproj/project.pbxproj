@@ -84,6 +84,7 @@
 		A23C02702DEAD25200993127 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		A23C02722DEAD25B00993127 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		A247E4DC2D94F8A000109144 /* op2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = op2; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26158402EDD94A300F2D36A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A28367342D9026C400A5D658 /* op */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = op; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28367412D9027EC00A5D658 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		A28367432D9027FC00A5D658 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -175,6 +176,7 @@
 		A283672B2D9026C400A5D658 = {
 			isa = PBXGroup;
 			children = (
+				A26158402EDD94A300F2D36A /* .gitignore */,
 				A2B06B872D97D9EC009F761B /* libglfw.3.dylib */,
 				A2D6FB862D9E216B00782AAA /* libglfw.3.dylib */,
 				A28367362D9026C400A5D658 /* 101-triangle */,
