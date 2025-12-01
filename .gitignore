@@ -1,0 +1,5 @@
+# Xcode 用户文件
+xcuserdata/
+*.xcuserstate
+*.xcuserdata
+.xcodeproj/xcuserdata/
